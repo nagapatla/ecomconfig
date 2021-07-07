@@ -1,6 +1,5 @@
 server:
-  profiles:
-    active: dev
+  port: 9090
 spring:
   application:
     name: USER-MAINTENANCE
