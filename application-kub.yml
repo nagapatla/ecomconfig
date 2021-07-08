@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    password: Javatalent@2021
+    url: ${ECOMDB_URL:jdbc:mysql://127.0.0.1:25789/ecom}
+    username: devuser
+  jpa:
+    hibernate:
+      ddl-auto: update
+eureka:
+  client:
+    fetch-registry: true
+    service-url:
+      defaultZone: ${EUREKA_URL:http://localhost:8761/eureka/}
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
