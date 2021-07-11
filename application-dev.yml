@@ -6,6 +6,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+  data:
+    rest:
+      base-path: /api
 eureka:
   client:
     fetch-registry: true
