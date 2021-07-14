@@ -9,6 +9,10 @@ spring:
   data:
     rest:
       base-path: /api
+  security:
+    user:
+      name: ecomuser
+      password: dummy
 eureka:
   client:
     fetch-registry: true
