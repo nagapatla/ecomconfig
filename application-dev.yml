@@ -13,9 +13,6 @@ spring:
     user:
       name: ecomuser
       password: dummy
-  cloud:
-    config:
-      uri: ${CONFIG_URL:http://ecomconfig:8888}
 eureka:
   client:
     fetch-registry: true
